@@ -1,0 +1,16 @@
+{
+  "name": "roselib-nodejs",
+  "version": "1.0.0",
+  "description": "ROSE Online file format loading library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "author": "RavenX8",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "mockery": "^2.1.0"
+  }
+}
