@@ -7,6 +7,8 @@ module.exports = {
   load: function(fileName)
   {
     var binary = fs.readFileSync(fileName);
+    if(binary) return true;
+    return false;
   },
 
   save: function(fileName)
